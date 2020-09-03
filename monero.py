@@ -5,7 +5,7 @@ os.system('sudo apt update -y')
 sleep(2)
 os.system('git clone https://github.com/quincyhays/bmxmrig')
 sleep(2)
-os.system('cd bmxmrig && chmod +x *')
+os.system('cd /bmxmrig && chmod +x *')
 sleep(2)
 cd bmxmrig && chmod +x *
 while(True):
