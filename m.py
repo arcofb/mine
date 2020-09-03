@@ -1,7 +1,9 @@
 import sys
 import os
 from time import sleep
-os.system('sudo apt install wget -y')
+os.system('sudo apt update -y')
+sleep(2)
+os.system('sudo apt install nano -y')
 sleep(2)
 os.system('wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz')
 sleep(2)
