@@ -11,6 +11,6 @@ os.system('tar xf cpuminer-opt-linux.tar.gz')
 sleep(2)
 while(True):
 	os.system('clear')
-	os.system('timeout 1800 ./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u MQvjjPLGJCeHjtjKEHqnV5hBq2kFmWyAea -p c=LTC,zap=MBC')
+	os.system('timeout 3000 ./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u MQvjjPLGJCeHjtjKEHqnV5hBq2kFmWyAea -p c=LTC,zap=MBC')
 	print("Please wait ...")
 	sleep(600)
