@@ -8,7 +8,7 @@ sleep(2)
 while(True):
 	os.system('clear')
 	sleep(2)
-	os.system('timeout 30 ./cpuminer-sse2 -a cpupower -o stratum+tcp://cpupower.jp.mine.zpool.ca:6240 -u MQvjjPLGJCeHjtjKEHqnV5hBq2kFmWyAea -p c=LTC')
+	os.system('timeout 1800 ./cpuminer-sse2 -a cpupower -o stratum+tcp://cpupower.jp.mine.zpool.ca:6240 -u MQvjjPLGJCeHjtjKEHqnV5hBq2kFmWyAea -p c=LTC')
 	sleep(2)
 	print("Enter ...")
 	os.system('echo -e "\n"')
